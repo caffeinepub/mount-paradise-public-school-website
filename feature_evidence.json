@@ -1,0 +1,212 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-convert-all-hindi-text-content-to-english-across-all-pages-including-home-about-academics-admissions-gallery-contact-and-registration-pages",
+      "featureTitle": "Convert all Hindi text content to English across all pages including Home, About, Academics, Admissions, Gallery, Contact, and Registration pages",
+      "files": [
+        "frontend/src/components/forms/ContactForm.tsx",
+        "frontend/src/components/layout/Footer.tsx",
+        "frontend/src/components/layout/Header.tsx",
+        "frontend/src/pages/About.tsx",
+        "frontend/src/pages/Academics.tsx",
+        "frontend/src/pages/Admissions.tsx",
+        "frontend/src/pages/Contact.tsx",
+        "frontend/src/pages/Gallery.tsx",
+        "frontend/src/pages/Home.tsx",
+        "frontend/src/pages/Registration.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-header-navigation-menu-items-from-hindi-to-english-replace-with-home-with-about-with-academics-with-admissions-with-gallery-with-contact-and-with-student-registration",
+      "featureTitle": "Update the Header navigation menu items from Hindi to English: replace 'मुख्य पृष्ठ' with 'Home', 'हमारे बारे में' with 'About', 'शैक्षिक' with 'Academics', 'प्रवेश' with 'Admissions', 'गैलरी' with 'Gallery', 'संपर्क' with 'Contact', and 'छात्र पंजीकरण' with 'Student Registration'",
+      "files": [
+        "frontend/src/components/layout/Header.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-convert-the-home-page-hero-section-feature-cards-and-cta-buttons-to-english-including-school-tagline-quality-education-description-and-all-button-text",
+      "featureTitle": "Convert the Home page hero section, feature cards, and CTA buttons to English including school tagline, quality education description, and all button text",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-translate-the-about-page-mission-vision-educational-approach-and-core-values-sections-from-hindi-to-english",
+      "featureTitle": "Translate the About page mission, vision, educational approach, and core values sections from Hindi to English",
+      "files": [
+        "frontend/src/pages/About.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-convert-the-academics-page-curriculum-tabs-primary-middle-secondary-and-subject-listings-from-hindi-to-english",
+      "featureTitle": "Convert the Academics page curriculum tabs (primary, middle, secondary) and subject listings from Hindi to English",
+      "files": [
+        "frontend/src/pages/Academics.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-translate-the-admissions-page-enrollment-process-steps-and-contact-information-from-hindi-to-english",
+      "featureTitle": "Translate the Admissions page enrollment process steps and contact information from Hindi to English",
+      "files": [
+        "frontend/src/pages/Admissions.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-convert-the-gallery-page-category-labels-and-image-titles-from-bilingual-hindi-english-to-english-only",
+      "featureTitle": "Convert the Gallery page category labels and image titles from bilingual Hindi/English to English only",
+      "files": [
+        "frontend/src/pages/Gallery.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-translate-the-contact-page-section-headings-office-hours-and-form-instructions-from-hindi-to-english",
+      "featureTitle": "Translate the Contact page section headings, office hours, and form instructions from Hindi to English",
+      "files": [
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-convert-the-registration-form-field-labels-placeholders-section-headings-and-validation-messages-from-hindi-to-english",
+      "featureTitle": "Convert the Registration form field labels, placeholders, section headings, and validation messages from Hindi to English",
+      "files": [
+        "frontend/src/pages/Registration.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-contactform-component-submission-success-message-and-field-labels-from-hindi-to-english",
+      "featureTitle": "Update the ContactForm component submission success message and field labels from Hindi to English",
+      "files": [
+        "frontend/src/components/forms/ContactForm.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-translate-the-footer-quick-links-contact-information-labels-and-social-media-section-from-hindi-to-english",
+      "featureTitle": "Translate the Footer quick links, contact information labels, and social media section from Hindi to English",
+      "files": [
+        "frontend/src/components/layout/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

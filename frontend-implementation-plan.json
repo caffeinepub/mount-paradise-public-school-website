@@ -1,0 +1,230 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Convert Mount Paradise School website from Hindi to English",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Convert all Hindi text content to English across all pages including Home, About, Academics, Admissions, Gallery, Contact, and Registration pages",
+      "acceptanceCriteria": [
+        "All page headings are in English",
+        "All body text and descriptions are in English",
+        "All button labels and CTAs are in English",
+        "All form labels and placeholders are in English",
+        "All navigation menu items are in English",
+        "All toast notifications and success messages are in English"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Convert all Hindi text to English including hero section heading, tagline, feature cards titles and descriptions, and CTA button labels"
+        },
+        {
+          "path": "frontend/src/pages/About.tsx",
+          "operation": "modify",
+          "description": "Translate all content from Hindi to English including page heading, mission statement, vision statement, educational approach description, and core values list"
+        },
+        {
+          "path": "frontend/src/pages/Academics.tsx",
+          "operation": "modify",
+          "description": "Convert curriculum tab labels (primary, middle, secondary), page heading, subject names, and special activities descriptions from Hindi to English"
+        },
+        {
+          "path": "frontend/src/pages/Admissions.tsx",
+          "operation": "modify",
+          "description": "Translate enrollment process steps, page heading, and contact section from Hindi to English while preserving school contact details"
+        },
+        {
+          "path": "frontend/src/pages/Gallery.tsx",
+          "operation": "modify",
+          "description": "Convert category tab labels and image titles from bilingual Hindi/English format to English only"
+        },
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Translate page heading, contact information labels, and office hours from Hindi to English while keeping actual contact details unchanged"
+        },
+        {
+          "path": "frontend/src/pages/Registration.tsx",
+          "operation": "modify",
+          "description": "Convert all form field labels, placeholders, section headings, and toast notification messages from Hindi to English"
+        },
+        {
+          "path": "frontend/src/components/forms/ContactForm.tsx",
+          "operation": "modify",
+          "description": "Translate form field labels, placeholders, submit button text, and success toast message from Hindi to English"
+        },
+        {
+          "path": "frontend/src/components/layout/Header.tsx",
+          "operation": "modify",
+          "description": "Replace Hindi navigation menu items with English equivalents in both desktop and mobile menus"
+        },
+        {
+          "path": "frontend/src/components/layout/Footer.tsx",
+          "operation": "modify",
+          "description": "Convert quick links, contact information labels, and copyright text from Hindi to English while preserving the school address and contact details"
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Update Header navigation menu items from Hindi to English",
+      "acceptanceCriteria": [
+        "All navigation links display English text",
+        "Mobile menu also shows English navigation items"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/layout/Header.tsx",
+          "operation": "modify",
+          "description": "Replace 'मुख्य पृष्ठ' with 'Home', 'हमारे बारे में' with 'About', 'शैक्षिक' with 'Academics', 'प्रवेश' with 'Admissions', 'गैलरी' with 'Gallery', 'संपर्क' with 'Contact', and 'छात्र पंजीकरण' with 'Student Registration' in both desktop navigation and mobile sheet menu"
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Convert Home page hero section, feature cards, and CTA buttons to English",
+      "acceptanceCriteria": [
+        "Hero section displays English content",
+        "Feature cards have English titles and descriptions",
+        "CTA buttons show English labels"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Translate hero heading, school tagline, quality education description, all feature card titles and descriptions, and button text ('Register Now' and 'Learn More') from Hindi to English"
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Translate About page mission, vision, educational approach, and core values sections from Hindi to English",
+      "acceptanceCriteria": [
+        "Mission and vision statements are in English",
+        "Educational approach description is in English",
+        "All core values are listed in English"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/About.tsx",
+          "operation": "modify",
+          "description": "Convert mission section heading and content, vision section heading and content, educational approach section and description, and core values section with all value items from Hindi to English"
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Convert Academics page curriculum tabs and subject listings from Hindi to English",
+      "acceptanceCriteria": [
+        "Tab labels are in English",
+        "All subject names are in English",
+        "Special activities descriptions are in English"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Academics.tsx",
+          "operation": "modify",
+          "description": "Translate page heading, curriculum tabs ('Primary Education', 'Middle School', 'Secondary Education'), all subject names for each level, and special activities section with activity descriptions from Hindi to English"
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Translate Admissions page enrollment process steps and contact information from Hindi to English",
+      "acceptanceCriteria": [
+        "All four enrollment steps are described in English",
+        "Contact section displays English text",
+        "Process descriptions are clear and professional in English"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Admissions.tsx",
+          "operation": "modify",
+          "description": "Convert page heading, all four enrollment process step titles and descriptions (registration, document submission, interview, confirmation), and contact section heading from Hindi to English while maintaining school contact details"
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Convert Gallery page category labels and image titles from bilingual Hindi/English to English only",
+      "acceptanceCriteria": [
+        "All category tabs show English labels",
+        "Image titles and descriptions are in English only"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Gallery.tsx",
+          "operation": "modify",
+          "description": "Replace bilingual category tab labels with English-only versions ('All', 'Infrastructure', 'Facilities', 'Activities', 'Events') and convert image titles to English only format, removing Hindi text"
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Translate Contact page section headings, office hours, and form instructions from Hindi to English",
+      "acceptanceCriteria": [
+        "Contact information labels are in English",
+        "Office hours display in English",
+        "Form submission messages appear in English"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Convert page heading, contact information section labels ('Address', 'Phone', 'Email'), office hours label and timing text from Hindi to English while preserving actual contact details and address"
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Convert Registration form field labels, placeholders, section headings, and validation messages from Hindi to English",
+      "acceptanceCriteria": [
+        "All form field labels are in English",
+        "Placeholders provide English guidance",
+        "Success and error toasts show English messages",
+        "Form sections have English headings"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Registration.tsx",
+          "operation": "modify",
+          "description": "Translate all form section headings ('Student Information', 'Parent/Guardian Information', 'Academic Information', 'Address Information'), field labels, input placeholders, select option text, submit button label, and success/error toast messages from Hindi to English"
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Update ContactForm component submission success message and field labels from Hindi to English",
+      "acceptanceCriteria": [
+        "Contact form labels are in English",
+        "Success toast notification displays in English",
+        "Submit button shows English text"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/forms/ContactForm.tsx",
+          "operation": "modify",
+          "description": "Convert all form field labels ('Name', 'Email', 'Phone', 'Subject', 'Message'), placeholders, submit button text ('Send Message'), and success toast notification message from Hindi to English"
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Translate Footer quick links, contact information labels, and social media section from Hindi to English",
+      "acceptanceCriteria": [
+        "Footer navigation links are in English",
+        "Contact section labels are in English",
+        "Copyright and attribution text is in English"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/layout/Footer.tsx",
+          "operation": "modify",
+          "description": "Convert section headings ('Quick Links', 'Contact Us'), navigation link text, contact information labels ('Address', 'Phone', 'Email'), social media section heading ('Follow Us'), and copyright text from Hindi to English while preserving school address and contact details"
+        }
+      ]
+    }
+  ]
+}

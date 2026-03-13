@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "School website (Mount Paradise Public School) with English language interface, gallery, admissions info, and registration form",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-convert-all-hindi-text-content-to-english-across-all-pages-including-home-about-academics-admissions-gallery-contact-and-registration-pages",
+      "title": "Convert all Hindi text content to English across all pages including Home, About, Academics, Admissions, Gallery, Contact, and Registration pages",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-header-navigation-menu-items-from-hindi-to-english-replace-with-home-with-about-with-academics-with-admissions-with-gallery-with-contact-and-with-student-registration",
+      "title": "Update the Header navigation menu items from Hindi to English: replace 'मुख्य पृष्ठ' with 'Home', 'हमारे बारे में' with 'About', 'शैक्षिक' with 'Academics', 'प्रवेश' with 'Admissions', 'गैलरी' with 'Gallery', 'संपर्क' with 'Contact', and 'छात्र पंजीकरण' with 'Student Registration'",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-home-page-hero-section-feature-cards-and-cta-buttons-to-english-including-school-tagline-quality-education-description-and-all-button-text",
+      "title": "Convert the Home page hero section, feature cards, and CTA buttons to English including school tagline, quality education description, and all button text",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-translate-the-about-page-mission-vision-educational-approach-and-core-values-sections-from-hindi-to-english",
+      "title": "Translate the About page mission, vision, educational approach, and core values sections from Hindi to English",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-academics-page-curriculum-tabs-primary-middle-secondary-and-subject-listings-from-hindi-to-english",
+      "title": "Convert the Academics page curriculum tabs (primary, middle, secondary) and subject listings from Hindi to English",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-translate-the-admissions-page-enrollment-process-steps-and-contact-information-from-hindi-to-english",
+      "title": "Translate the Admissions page enrollment process steps and contact information from Hindi to English",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-gallery-page-category-labels-and-image-titles-from-bilingual-hindi-english-to-english-only",
+      "title": "Convert the Gallery page category labels and image titles from bilingual Hindi/English to English only",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-translate-the-contact-page-section-headings-office-hours-and-form-instructions-from-hindi-to-english",
+      "title": "Translate the Contact page section headings, office hours, and form instructions from Hindi to English",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-registration-form-field-labels-placeholders-section-headings-and-validation-messages-from-hindi-to-english",
+      "title": "Convert the Registration form field labels, placeholders, section headings, and validation messages from Hindi to English",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contactform-component-submission-success-message-and-field-labels-from-hindi-to-english",
+      "title": "Update the ContactForm component submission success message and field labels from Hindi to English",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-translate-the-footer-quick-links-contact-information-labels-and-social-media-section-from-hindi-to-english",
+      "title": "Translate the Footer quick links, contact information labels, and social media section from Hindi to English",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Convert website language from Hindi to English",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Mount Paradise School",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

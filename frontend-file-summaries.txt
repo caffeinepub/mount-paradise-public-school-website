@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router configuration for all pages including the new Registration route, wrapped in Layout component.",
+  "frontend/src/components/layout/Layout.tsx": "Layout wrapper component that includes Header and Footer with Outlet for page content.",
+  "frontend/src/components/layout/Header.tsx": "Responsive header component with school logo and navigation menu with all English labels (Home, About, Academics, Admissions, Student Registration, Gallery, Contact) for both desktop and mobile views with active route highlighting.",
+  "frontend/src/components/layout/Footer.tsx": "Footer component with school address in Dehri-on-Sone, Rohtas, Bihar, quick links, contact details, social media icons, office hours, and caffeine.ai attribution with UTM tracking - all content in English.",
+  "frontend/src/pages/Home.tsx": "Homepage with hero section, feature cards highlighting quality education and experienced teachers, mission section about holistic development, values section, and CTA for admissions - all content translated to English.",
+  "frontend/src/pages/About.tsx": "About page with school mission, vision, educational approach, teaching methodology, and core values sections - all content translated to English.",
+  "frontend/src/pages/Academics.tsx": "Academics page with tabbed curriculum overview for Primary, Middle, and Secondary education levels, teaching methodology cards, and co-curricular activities section - all content in English.",
+  "frontend/src/pages/Admissions.tsx": "Admissions page with affordable fee structure, step-by-step admission process, required documents checklist, important dates timeline, and contact CTA - all content translated to English.",
+  "frontend/src/pages/Gallery.tsx": "Gallery page with grid of school images including school bus, dialog modals for full-size viewing, and categorized activity sections - all titles and descriptions in English only.",
+  "frontend/src/pages/Contact.tsx": "Contact page with school address in Dehri-on-Sone, Rohtas, Bihar displayed in address card, contact form, office hours, and map placeholder section - all labels and content in English.",
+  "frontend/src/components/forms/ContactForm.tsx": "Contact form component with validation, form state management, and toast notification on submission - all labels, placeholders, and messages in English.",
+  "frontend/src/hooks/useQueries.ts": "Empty file placeholder for future React Query hooks when backend functionality is implemented.",
+  "frontend/src/index.css": "Global styles with educational color palette using OKLCH (deep blue primary, warm orange secondary, teal accent) for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with educational theme colors and custom design tokens.",
+  "frontend/src/main.tsx": "Application entry point with QueryClient, InternetIdentityProvider, and Sonner Toaster for notifications.",
+  "frontend/src/pages/Registration.tsx": "Student registration page with comprehensive form including student basic details, parent/guardian information, academic details, and address sections - all labels, placeholders, and toast messages in English."
+}

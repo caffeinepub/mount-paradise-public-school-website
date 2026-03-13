@@ -1,0 +1,195 @@
+{
+  "kind": "build_request",
+  "title": "Convert website language from Hindi to English",
+  "projectName": "Mount Paradise School",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Convert all Hindi text content to English across all pages including Home, About, Academics, Admissions, Gallery, Contact, and Registration pages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ],
+        "quotes": [
+          "Meri website ko English language me kr do"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All page headings are in English",
+        "All body text and descriptions are in English",
+        "All button labels and CTAs are in English",
+        "All form labels and placeholders are in English",
+        "All navigation menu items are in English",
+        "All toast notifications and success messages are in English"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Update the Header navigation menu items from Hindi to English: replace 'मुख्य पृष्ठ' with 'Home', 'हमारे बारे में' with 'About', 'शैक्षिक' with 'Academics', 'प्रवेश' with 'Admissions', 'गैलरी' with 'Gallery', 'संपर्क' with 'Contact', and 'छात्र पंजीकरण' with 'Student Registration'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All navigation links display English text",
+        "Mobile menu also shows English navigation items"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Convert the Home page hero section, feature cards, and CTA buttons to English including school tagline, quality education description, and all button text",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays English content",
+        "Feature cards have English titles and descriptions",
+        "CTA buttons show English labels"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Translate the About page mission, vision, educational approach, and core values sections from Hindi to English",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Mission and vision statements are in English",
+        "Educational approach description is in English",
+        "All core values are listed in English"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Convert the Academics page curriculum tabs (primary, middle, secondary) and subject listings from Hindi to English",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Tab labels are in English",
+        "All subject names are in English",
+        "Special activities descriptions are in English"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Translate the Admissions page enrollment process steps and contact information from Hindi to English",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All four enrollment steps are described in English",
+        "Contact section displays English text",
+        "Process descriptions are clear and professional in English"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Convert the Gallery page category labels and image titles from bilingual Hindi/English to English only",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All category tabs show English labels",
+        "Image titles and descriptions are in English only"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Translate the Contact page section headings, office hours, and form instructions from Hindi to English",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact information labels are in English",
+        "Office hours display in English",
+        "Form submission messages appear in English"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Convert the Registration form field labels, placeholders, section headings, and validation messages from Hindi to English",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All form field labels are in English",
+        "Placeholders provide English guidance",
+        "Success and error toasts show English messages",
+        "Form sections have English headings"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Update the ContactForm component submission success message and field labels from Hindi to English",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form labels are in English",
+        "Success toast notification displays in English",
+        "Submit button shows English text"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Translate the Footer quick links, contact information labels, and social media section from Hindi to English",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer navigation links are in English",
+        "Contact section labels are in English",
+        "Copyright and attribution text is in English"
+      ]
+    }
+  ],
+  "constraints": [
+    "Preserve all existing functionality and component structure",
+    "Maintain the school's address and contact details exactly as they are",
+    "Keep all routing paths unchanged",
+    "Do not modify the immutable paths: useInternetIdentity hooks, useActor.ts, main.tsx, and components/ui directory"
+  ],
+  "nonGoals": [
+    "Changing the visual design or layout",
+    "Modifying color schemes or styling",
+    "Adding new features or pages",
+    "Changing the school's contact information or address",
+    "Implementing multi-language support or language switcher"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
